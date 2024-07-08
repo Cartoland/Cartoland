@@ -1,5 +1,6 @@
+import wool from "./components/wool.vue";
+
 import { defineClientConfig } from "vuepress/client";
-import wool from "./components/wool.js";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

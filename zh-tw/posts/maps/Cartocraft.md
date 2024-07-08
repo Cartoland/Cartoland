@@ -181,9 +181,3 @@ datapack disable "file/試作 - 獨立怪物技能資料包"
 
 - 針對最終區域的高威脅怪物與生怪磚做適當調整，並修正已知的 BUG
 - 更新 <wool color="light-gray"/> 區域 9 的資料包
-
-<style>
-  .text-red {
-    color: rgb(224, 108, 117);
-  }
-</style>

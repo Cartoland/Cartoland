@@ -1,6 +1,9 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 
 import theme from "./theme.js";
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",
@@ -39,7 +42,5 @@ export default defineUserConfig({
     ["meta", { property: "theme-color", content: "#83c765" }],
   ],
 
-  alias: {
-    "vue": "vue/dist/vue.esm-bundler.js",
-  }
+  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 });
