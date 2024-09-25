@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { Page } from "vuepress";
 
 import { enusNavbar, zhtwNavbar, zhcnNavbar } from "./navbar/index.js";
 import { enusSidebar, zhtwSidebar, zhcnSidebar } from "./sidebar/index.js";

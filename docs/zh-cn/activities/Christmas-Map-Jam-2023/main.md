@@ -10,6 +10,7 @@ category:
   - 圣诞 Map Jam－2023
 cover: /activities/Christmas-Map-Jam-2023/banner.png
 banner: /activities/Christmas-Map-Jam-2023/cover.png
+order: 1
 ---
 
 # 圣诞 Map Jam－2023（已结束）

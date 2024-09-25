@@ -11,17 +11,17 @@ heroFullScreen: true
 projects:
   - icon: list-ol
     name: 地图
-    link: "posts/maps/"
+    link: "maps/"
 
   - icon: list-ol
     name: 资源包
-    link: "posts/resource-packs/"
+    link: "resource-packs/"
 
   - icon: list-ol
     name: 数据包
-    link: "posts/data-packs/"
+    link: "data-packs/"
   
   - icon: list-ol
     name: 活动
-    link: "posts/activities/"
+    link: "activities/"
 ---

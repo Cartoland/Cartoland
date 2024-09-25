@@ -2,8 +2,8 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar([
   "/en-us/",
-  "/en-us/posts/maps/",
-  "/en-us/posts/resource-packs/",
-  "/en-us/posts/data-packs/",
-  "/en-us/posts/activities/",
+  { text: "Maps", prefix: "/en-us/maps/", children: "structure" },
+  { text: "Resource Packs", prefix: "/en-us/resource-packs/", children: "structure" },
+  { text: "Data Packs", prefix: "/en-us/data-packs/", children: "structure" },
+  { text: "Activities", prefix: "/en-us/activities/", children: "structure" },
 ]);

@@ -9,6 +9,7 @@ category:
   - 聖誕 Map Jam－2023
 cover: https://github.com/Cartoland/Christmas-Map-Jam-2023/blob/main/maps/%E6%B4%9B%E5%9F%BA%E7%9A%84%E9%AD%94%E5%B9%BB%E4%B9%8B%E6%97%85/files/title.png?raw=true
 banner: https://github.com/Cartoland/Christmas-Map-Jam-2023/blob/main/maps/%E6%B4%9B%E5%9F%BA%E7%9A%84%E9%AD%94%E5%B9%BB%E4%B9%8B%E6%97%85/files/title.png?raw=true
+order: 2
 ---
 
 # 魂造 Soul maker 2023聖誕密集製圖大賽版（已棄權）
