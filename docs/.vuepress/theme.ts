@@ -88,10 +88,7 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
-    blog: {
-      filter: ({ frontmatter, filePathRelative, path }: Page) =>
-        !!filePathRelative && !frontmatter.home && frontmatter.pageClass !== "hideInBlog",
-    },
+    blog: true,
 
     redirect: {
       switchLocale: "modal",

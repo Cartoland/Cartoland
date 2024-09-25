@@ -1,6 +1,8 @@
 ---
 title: 資料包
 icon: list-ol
+article: false
+index: false
 ---
 
 # 目錄
