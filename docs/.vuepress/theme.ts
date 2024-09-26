@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { Page } from "vuepress";
 
 import { enusNavbar, zhtwNavbar, zhcnNavbar } from "./navbar/index.js";
 import { enusSidebar, zhtwSidebar, zhcnSidebar } from "./sidebar/index.js";
@@ -88,10 +87,7 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
-    blog: {
-      filter: ({ frontmatter, filePathRelative, path }: Page) =>
-        !!filePathRelative && !frontmatter.home && frontmatter.pageClass !== "hideInBlog",
-    },
+    blog: true,
 
     redirect: {
       switchLocale: "modal",
@@ -106,16 +102,18 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
+    markdownImage: {
+      figure: true,
+      lazyload: true,
+      mark: true,
+    },
+
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
       mark: true,
       plantuml: true,
@@ -135,7 +133,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       tasklist: true,
       vPre: true,
     },

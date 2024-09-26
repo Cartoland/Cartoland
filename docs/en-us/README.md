@@ -11,17 +11,17 @@ heroFullScreen: true
 projects:
   - icon: list-ol
     name: Map
-    link: "posts/maps/"
+    link: "maps/"
 
   - icon: list-ol
     name: Resource Pack
-    link: "posts/resource-packs/"
+    link: "resource-packs/"
 
   - icon: list-ol
     name: Data Pack
-    link: "posts/data-packs/"
+    link: "data-packs/"
   
   - icon: list-ol
     name: Activity
-    link: "posts/activities/"
+    link: "activities/"
 ---
